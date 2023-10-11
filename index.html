@@ -4,11 +4,28 @@
     <title>Janika Pokorná</title>
     <style>
         body {
-            background-color:  #FFEBF0; /* Light Pink Background */
+            background-color: #ECEFF1; /* Very light blue background */
             font-family: 'Arial', sans-serif; /* Nice Font */
+            text-align: center; /* Center text horizontally */
         }
         h1 {
             color: #333333; /* Heading Color */
+        }
+        .utf-centered {
+            margin: 0 auto; /* Center block element horizontally */
+            max-width: 800px; /* Limit the maximum width of the centered content */
+            text-align: left; /* Reset text alignment to left for content inside this block */
+        }
+        dl {
+            display: table; /* Use a table layout for definition list */
+            margin: 0 auto; /* Center the table horizontally */
+        }
+        dt, dd {
+            display: table-cell; /* Display dt and dd as table cells */
+            padding: 5px; /* Add some padding for spacing */
+        }
+        dt {
+            font-weight: bold; /* Make the dt (titles) bold */
         }
     </style>
 </head>
@@ -18,19 +35,15 @@
     <div class="jmeno">B.S. in Mathematical Modelling, Charles University, Prague</div>
     <hr class="utf-oddel hr-jmeno" />
     <p>Contact: </p>
-    <div class="utf-centered utf-mxw800p" style="padding: 0% 5%;">
+    <div class="utf-centered">
         <dl>
             <dt>E-mail</dt>
-            <dd>
-                janika.pokorna@email.cz<br />
-            </dd>
+            <dd>janika.pokorna@email.cz</dd>
             <dt>Phone number</dt>
             <dd>+420 722 063 808</dd>
             <dt>Curriculum Vitae</dt>
-            <dd><a href="cvJanikaPokorná.pdf" target="_blank">CV Janika Pokorná</a>
-            </dd>
+            <dd><a href="cvJanikaPokorná.pdf" target="_blank">CV Janika Pokorná</a></dd>
         </dl>
     </div>
-    
 </body>
 </html>
